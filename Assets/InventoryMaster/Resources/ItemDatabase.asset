@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4c29ddb3cf21d4e9b0596a8ba26af7, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemName: 
+    itemID: 0
+    itemDesc: 'If you drink this nice bottle you will get some health back.
+
+
+      + 20 Health'
+    itemIcon: {fileID: 0}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 0
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Sword 1
+    itemID: 1
+    itemDesc: Description of sword 1
+    itemIcon: {fileID: 21300000, guid: 439486a4aa566984eba71b527d0ceaf7, type: 3}
+    itemModel: {fileID: 1000011202513472, guid: 91c2311f9bd94dd48a9b52872af815d1,
+      type: 2}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: AttackType
+      attributeValue: 1
+    - attributeName: Sword
+      attributeValue: 0
+  - itemName: Bow
+    itemID: 2
+    itemDesc: Bow description
+    itemIcon: {fileID: 21300000, guid: 07beb17ed46c1ad448cf72e5ecbcd9c9, type: 3}
+    itemModel: {fileID: 100002, guid: 022a72268e462114788abcf0c0b07418, type: 3}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: AttackType
+      attributeValue: 0
+    - attributeName: Bow
+      attributeValue: 0
+  - itemName: Fire Ball
+    itemID: 3
+    itemDesc: Fire ball description
+    itemIcon: {fileID: 21300000, guid: e374e44b1c3fcba41b4a43d8f44018f5, type: 3}
+    itemModel: {fileID: 1767112267422432, guid: e06ad9dee84b3a04d9ecf0a1ec58d253,
+      type: 2}
+    itemValue: 1
+    itemType: 14
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: AttackType
+      attributeValue: 0
+  - itemName: Fire Bolt
+    itemID: 4
+    itemDesc: Fire bolt description
+    itemIcon: {fileID: 21300000, guid: f4aade5c148303342b406f06d06f77e0, type: 3}
+    itemModel: {fileID: 1620662086771852, guid: e7f6ba9e93abb7b4bbebba425c8737d1,
+      type: 2}
+    itemValue: 1
+    itemType: 14
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: AttackType
+      attributeValue: 1
+  - itemName: Lightning Bolt
+    itemID: 5
+    itemDesc: Lightning Bolt description
+    itemIcon: {fileID: 21300000, guid: 59caebf2f8284ae4a97ffd69c515b997, type: 3}
+    itemModel: {fileID: 1304641078379562, guid: c9f502ca3f0d933498c49726714304f9,
+      type: 2}
+    itemValue: 1
+    itemType: 14
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: AttackType
+      attributeValue: 2
+  - itemName: Spark
+    itemID: 6
+    itemDesc: Spark desc
+    itemIcon: {fileID: 21300000, guid: 3837585f22b63764cb97169f2ac2f780, type: 3}
+    itemModel: {fileID: 1468233956724090, guid: c1995b1d6339ace4cb2a221b6880f1f4,
+      type: 2}
+    itemValue: 1
+    itemType: 14
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: AttackType
+      attributeValue: 3
+  - itemName: Bow Knockback
+    itemID: 7
+    itemDesc: desc
+    itemIcon: {fileID: 21300000, guid: 5302d141cdfd12c4d929311468085f8e, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: Bow
+      attributeValue: 0
+    - attributeName: AttackType
+      attributeValue: 1
+  - itemName: Piercing bow
+    itemID: 8
+    itemDesc: desc
+    itemIcon: {fileID: 21300000, guid: 6eb0d0a0ce9ecb2418fdf42e4571b271, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: Bow
+      attributeValue: 0
+    - attributeName: AttackType
+      attributeValue: 2
+  - itemName: Sword 2
+    itemID: 9
+    itemDesc: desc
+    itemIcon: {fileID: 21300000, guid: e9c33fd941d98444fb2b069ac8c9fa94, type: 3}
+    itemModel: {fileID: 1000013295813826, guid: 9b4c4d57d4a26dc4da4ead66a8c14bcd,
+      type: 2}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: AttackType
+      attributeValue: 1
+    - attributeName: Sword
+      attributeValue: 1
+  - itemName: Sword 3
+    itemID: 10
+    itemDesc: desc
+    itemIcon: {fileID: 21300000, guid: 8906362e4f586354d9b45c2c745149be, type: 3}
+    itemModel: {fileID: 1000012846812922, guid: bfa27590ea94de64d864f7e66f3f70bc,
+      type: 2}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Sword 4
+    itemID: 11
+    itemDesc: desc
+    itemIcon: {fileID: 21300000, guid: a6a92f26c68ae894ab8d9810f13240cd, type: 3}
+    itemModel: {fileID: 1000013015325380, guid: b99fa333e3e7bbb47ad9fa603c7cac4d,
+      type: 2}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Sword 5
+    itemID: 12
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: bce761d7bb2d48f419a96187fc3abfc9, type: 3}
+    itemModel: {fileID: 1000011837240938, guid: d7a0d5a817d03414eb374490a243793a,
+      type: 2}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Sword 6
+    itemID: 13
+    itemDesc: desc
+    itemIcon: {fileID: 21300000, guid: 6f151bad5e39d5e4a8dc5ec8da2403cf, type: 3}
+    itemModel: {fileID: 1000013095509424, guid: d61d2c7e692981e49aa16221af715bd5,
+      type: 2}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Sword 7
+    itemID: 14
+    itemDesc: desc
+    itemIcon: {fileID: 21300000, guid: bee52ceb1b78ba643a1fdec1f0a112f4, type: 3}
+    itemModel: {fileID: 1000013577808058, guid: 96a6e4681a172aa4a8f493d0d86a156e,
+      type: 2}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Sword 8
+    itemID: 15
+    itemDesc: desc
+    itemIcon: {fileID: 21300000, guid: 4426fb32a81d1204bbeba631bbf92e35, type: 3}
+    itemModel: {fileID: 1000011910526138, guid: 178f7d01fe66c3a488654bea1b40ad2f,
+      type: 2}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Sword 9
+    itemID: 16
+    itemDesc: desc
+    itemIcon: {fileID: 21300000, guid: 35a03c24840fdf645b32929ae753519d, type: 3}
+    itemModel: {fileID: 1000013855897608, guid: 5078bee4338b29047acfe2de51fcd37d,
+      type: 2}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Sword 10
+    itemID: 17
+    itemDesc: desc
+    itemIcon: {fileID: 21300000, guid: f7eb2e370d394a04b9f7a7cb4c93fced, type: 3}
+    itemModel: {fileID: 1000012831732988, guid: 6278ae225ea97d142b36c1d08c3ec43f,
+      type: 2}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: AttackType
+      attributeValue: 1
+    - attributeName: Sword
+      attributeValue: 9
+  - itemName: Gold
+    itemID: 18
+    itemDesc: Gold coin description
+    itemIcon: {fileID: 21300000, guid: 8ef8e5012bb098f49b9d1ca109cceaaa, type: 3}
+    itemModel: {fileID: 1088728334156228, guid: 63cb0eb32a98bff478388632c90ff389,
+      type: 2}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 200
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
